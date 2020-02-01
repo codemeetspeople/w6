@@ -1,0 +1,9 @@
+sftp-config.json
+/venv/
+/env/
+*.py[cod]
+*.out
+*.exe
+*.class
+__pycache__
+.DS_Store
