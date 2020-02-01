@@ -163,9 +163,13 @@ rm -rf Python-3.8.1
 ```
 
 ### Создание и настройка виртуального окружения Python
+Устанавливаем пакеты:
 ```bash
 cd ~/server/
 apt-get install python-dev python3-dev python-setuptools python-virtualenv python-pip python3-pip
+```
+Создаем виртуальное окружение:
+```bash
 virtualenv venv --python=/usr/local/bin/python3.8
 ```
 Для активации виртуального окружения:
