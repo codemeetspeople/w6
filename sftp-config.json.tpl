@@ -20,7 +20,8 @@
         "\\.sublime-(project|workspace)", "sftp-config(-alt\\d?)?\\.json",
         "sftp-settings\\.json", "/venv/", "\\.svn/", "\\.hg/", "\\.git/",
         "\\.bzr", "_darcs", "CVS", "\\.DS_Store", "Thumbs\\.db", "desktop\\.ini",
-        "\\.out", "\\.exe", "\\.class"
+        "\\.out", "\\.exe", "\\.class", "README\\.md",
+        "\\.json\\.tpl"
     ],
     //"file_permissions": "664",
     //"dir_permissions": "775",
