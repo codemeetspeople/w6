@@ -271,7 +271,7 @@ apt-get install postgresql
 ```
 После этого нужно подправить hostbase authorization конфиг:
 ```bash
-nano /etc/postgresql/10/main/pg_hba.conf
+nano /etc/postgresql/12/main/pg_hba.conf
 ```
 Находим строку:
 ```
