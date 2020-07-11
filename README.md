@@ -151,15 +151,15 @@ apt-get install -y gcc g++ default-jdk default-jre
 ### Установка Python3.8
 ```bash
 apt-get -y install build-essential libsqlite3-dev zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
-wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tgz
-tar -xzvf Python-3.8.1.tgz
-cd Python-3.8.1
+wget https://www.python.org/ftp/python/3.8.3/Python-3.8.3.tgz
+tar -xzvf Python-3.8.3.tgz
+cd Python-3.8.3
 ./configure --enable-optimizations
 make
 make altinstall
 cd ..
-rm Python-3.8.1.tgz
-rm -rf Python-3.8.1
+rm Python-3.8.3.tgz
+rm -rf Python-3.8.3
 ```
 
 ### Создание и настройка виртуального окружения Python
