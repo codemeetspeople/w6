@@ -284,3 +284,7 @@ local   all             all                                     peer
 local   all             all                                     md5
 ```
 Для сохранения изименений в редакторе nano используем комбинацию клавиш **Ctrl+O**, для выхода из редактора - **Ctrl+X**.
+Выполняем команду:
+```
+service postgresql restart
+```
