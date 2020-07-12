@@ -92,6 +92,12 @@ apt-get update
 apt-get -y upgrade
 ```
 
+## Добавление локали
+Выполняем команды:
+```bash
+echo LC_ALL=en_US.UTF-8 >> /etc/environment
+```
+
 ## Создание рабочей директории
 ```bash
 cd ~
