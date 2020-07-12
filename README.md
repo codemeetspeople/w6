@@ -288,3 +288,11 @@ local   all             all                                     md5
 ```
 service postgresql restart
 ```
+
+## Подключение SSL сертификатов
+```
+add-apt-repository ppa:certbot/certbot
+apt-get update
+apt-get install python-certbot-nginx
+certbot --nginx -d example.com -d www.example.com
+```
