@@ -296,3 +296,10 @@ apt-get update
 apt-get install python-certbot-nginx
 certbot --nginx -d example.com -d www.example.com
 ```
+
+## Создание симлинков
+```
+cp /etc/nginx/sites-available/default /root/server/conf/nginx.conf
+rm /etc/nginx/sites-available/default
+ln -s /root/server/conf/nginx.conf /etc/nginx/sites-available/default
+```
